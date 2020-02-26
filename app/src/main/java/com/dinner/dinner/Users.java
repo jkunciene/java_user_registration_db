@@ -3,13 +3,15 @@ package com.dinner.dinner;
 public class Users {
 
     private String name;
-    private String email;
     private String password;
+    private String email;
+
 
     public Users(String name, String email, String password) {
         this.name = name;
-        this.email = email;
         this.password = password;
+        this.email = email;
+
 
     }
 
